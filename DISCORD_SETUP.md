@@ -13,7 +13,7 @@
 
 3. **Configure OAuth2**:
    - Go to "OAuth2" → "General" in the sidebar
-   - Add redirect URI: `https://mcserver.milindkumar.dev/api/auth/callback/discord`
+   - Add redirect URI: `https://serverutil.milindkumar.dev/api/auth/callback/discord`
    - For local development also add: `http://localhost:3000/api/auth/callback/discord`
    - Save changes
 
@@ -76,7 +76,7 @@ DISCORD_ALLOWED_USERS=user1_id,user2_id,user3_id
    ```
 
 2. **Update Discord OAuth Redirect URI**:
-   - Make sure `https://mcserver.milindkumar.dev/api/auth/callback/discord` is added
+   - Make sure `https://serverutil.milindkumar.dev/api/auth/callback/discord` is added
 
 ## Security Notes
 

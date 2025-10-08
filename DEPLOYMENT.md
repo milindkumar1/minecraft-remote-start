@@ -27,7 +27,7 @@ Enter your desired password and copy the generated hash.
 Create these in your Vercel dashboard under your project settings:
 
 ```
-NEXTAUTH_URL=https://mcserver.milindkumar.dev
+NEXTAUTH_URL=https://serverutil.milindkumar.dev
 NEXTAUTH_SECRET=your-super-secret-key-32-chars-long
 DISCORD_CLIENT_ID=your-discord-client-id
 DISCORD_CLIENT_SECRET=your-discord-client-secret
@@ -65,7 +65,7 @@ WINDOWS_AGENT_SECRET=shared-secret-between-web-app-and-agent
 1. **In Vercel Dashboard**:
    - Go to your project settings
    - Click "Domains"
-   - Add your custom domain: `mcserver.milindkumar.dev`
+   - Add your custom domain: `serverutil.milindkumar.dev`
 
 2. **DNS Configuration**:
    - Add a CNAME record pointing to `cname.vercel-dns.com`
@@ -85,7 +85,7 @@ WINDOWS_AGENT_SECRET=shared-secret-between-web-app-and-agent
    PORT=8080
    BAT_FILE_PATH=C:\Users\Milind Kumar\Desktop\start_servers.bat
    WINDOWS_AGENT_SECRET=shared-secret-between-web-app-and-agent
-   ALLOWED_ORIGINS=https://mcserver.milindkumar.dev
+   ALLOWED_ORIGINS=https://serverutil.milindkumar.dev
    ```
 
 3. **Run Agent**:
@@ -118,7 +118,7 @@ WINDOWS_AGENT_SECRET=shared-secret-between-web-app-and-agent
 ## Step 6: Test the Setup
 
 1. **Access Web App**:
-   - Go to `https://mcserver.milindkumar.dev`
+   - Go to `https://serverutil.milindkumar.dev`
    - Sign in with your credentials
 
 2. **Test Server Status**:

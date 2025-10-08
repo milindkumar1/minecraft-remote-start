@@ -76,7 +76,7 @@ User Browser → Vercel (Next.js App) → Windows PC (Local Agent) → .bat file
    PORT=8080
    BAT_FILE_PATH=C:\Users\Milind Kumar\Desktop\start_servers.bat
    WINDOWS_AGENT_SECRET=shared-secret-between-web-app-and-agent
-   ALLOWED_ORIGINS=http://localhost:3000,https://mcserver.milindkumar.dev
+   ALLOWED_ORIGINS=http://localhost:3000,https://serverutil.milindkumar.dev
    ```
 
 4. Run the agent:

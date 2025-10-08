@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080
 const CONFIG = {
   BAT_FILE_PATH: process.env.BAT_FILE_PATH || 'C:\\Users\\Milind Kumar\\Desktop\\start_servers.bat',
   AUTH_SECRET: process.env.WINDOWS_AGENT_SECRET || 'shared-secret-between-web-app-and-agent',
-  ALLOWED_ORIGINS: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:3000', 'https://mcserver.milindkumar.dev']
+  ALLOWED_ORIGINS: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:3000', 'https://serverutil.milindkumar.dev']
 }
 
 // Middleware
