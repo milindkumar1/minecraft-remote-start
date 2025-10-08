@@ -58,26 +58,33 @@ export default function Dashboard() {
   }
 
   const startServers = async () => {
+    console.log('🚀 Starting servers...')
     setStartingServers(true)
     setError('')
     setMessage('')
     
     try {
+      console.log('📡 Making API call to /api/server')
       const response = await fetch('/api/server', {
         method: 'POST'
       })
+      console.log('📥 Response status:', response.status)
       const data = await response.json()
+      console.log('📦 Response data:', data)
       
       if (response.ok) {
         setMessage('Servers started successfully!')
+        console.log('✅ Servers started successfully!')
         // Refresh status after starting
         setTimeout(() => {
           fetchServerStatus()
         }, 2000)
       } else {
+        console.error('❌ Error response:', data)
         setError(data.error || 'Failed to start servers')
       }
-    } catch {
+    } catch (err) {
+      console.error('❌ Fetch error:', err)
       setError('Error starting servers')
     } finally {
       setStartingServers(false)
@@ -103,7 +110,7 @@ export default function Dashboard() {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <h1 className="text-xl font-semibold text-gray-900">
-                Milind&apos;s Minecraft Server
+                Milind's Minecraft Server
               </h1>
             </div>
             <div className="flex items-center space-x-4">

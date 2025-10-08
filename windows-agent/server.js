@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const { exec, spawn } = require('child_process')
@@ -10,8 +11,15 @@ const PORT = process.env.PORT || 8080
 // Configuration
 const CONFIG = {
   BAT_FILE_PATH: process.env.BAT_FILE_PATH || 'C:\\Users\\Milind Kumar\\Desktop\\start_servers.bat',
-  AUTH_SECRET: process.env.WINDOWS_AGENT_SECRET || 'shared-secret-between-web-app-and-agent',
+  AUTH_SECRET: process.env.WINDOWS_AGENT_SECRET,
   ALLOWED_ORIGINS: process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:3000', 'https://serverutil.milindkumar.dev']
+}
+
+// Validate required environment variables
+if (!CONFIG.AUTH_SECRET) {
+  console.error('❌ ERROR: WINDOWS_AGENT_SECRET environment variable is required!')
+  console.error('Please ensure your .env file contains: WINDOWS_AGENT_SECRET=your-secret-here')
+  process.exit(1)
 }
 
 // Middleware
