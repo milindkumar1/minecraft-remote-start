@@ -104,3 +104,46 @@ STDOUT: -------------------------------
 
 STDOUT: Press any key to continue . . . 
 
+[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+🚀 Minecraft Server Agent running on port 8080
+📁 Batch file path: C:\Users\Milind Kumar\Desktop\start_servers.bat
+🔐 Authentication required for protected endpoints
+🌐 Allowed origins: http://localhost:3000, http://localhost:3001, https://serverutil.milindkumar.dev
+✅ Batch file found and accessible
+[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+🚀 Minecraft Server Agent running on port 8080
+📁 Batch file path: C:\Users\Milind Kumar\Desktop\start_servers.bat
+🔐 Authentication required for protected endpoints
+🌐 Allowed origins: http://localhost:3000, http://localhost:3001, https://serverutil.milindkumar.dev
+✅ Batch file found and accessible
+[dotenv@17.2.3] injecting env (4) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+🚀 Minecraft Server Agent running on port 8080
+📁 Batch file path: C:\Users\Milind Kumar\Desktop\start_servers.bat
+🔐 Authentication required for protected endpoints
+🌐 Allowed origins: http://localhost:3000, http://localhost:3001, https://serverutil.milindkumar.dev, http://milindmcserver.freedynamicdns.net, https://milindmcserver.freedynamicdns.net
+✅ Batch file found and accessible
+Starting servers using: C:\Users\Milind Kumar\Desktop\start_servers.bat
+STDOUT: -------------------------------
+
+STDOUT: Stopping any existing NeoForge or Velocity servers...
+
+STDOUT: -------------------------------
+
+STDERR: ERROR: Input redirection is not supported, exiting the process immediately.
+
+STDOUT: Launching Velocity proxy...
+
+STDOUT: Waiting 5 seconds for Velocity to fully start...
+
+STDERR: ERROR: Input redirection is not supported, exiting the process immediately.
+
+STDOUT: Launching NeoForge server...
+
+STDOUT: -------------------------------
+
+STDOUT: Both servers launched!
+
+STDOUT: -------------------------------
+
+STDOUT: Press any key to continue . . . 
+

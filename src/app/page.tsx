@@ -110,6 +110,7 @@ export default function Dashboard() {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <h1 className="text-xl font-semibold text-gray-900">
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Milind's Minecraft Server
               </h1>
             </div>
