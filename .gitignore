@@ -37,6 +37,9 @@ yarn-error.log*
 # Windows Agent
 windows-agent/node_modules
 windows-agent/.env
+windows-agent/daemon/
+windows-agent/*.log
+windows-agent/*.out
 
 # vercel
 .vercel

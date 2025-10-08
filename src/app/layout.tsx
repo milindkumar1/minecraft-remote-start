@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Milind&apos;s Minecraft Server",
-  description: "Remote server management for authorized users",
+  title: "Milind's Minecraft Server",
+  description: "Remote server management for authorized users :p",
 };
 
 export default function RootLayout({

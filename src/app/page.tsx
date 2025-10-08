@@ -110,7 +110,7 @@ export default function Dashboard() {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <h1 className="text-xl font-semibold text-gray-900">
-                Milind&rsquo;s Minecraft Server
+                Milind's Minecraft Server
               </h1>
             </div>
             <div className="flex items-center space-x-4">
